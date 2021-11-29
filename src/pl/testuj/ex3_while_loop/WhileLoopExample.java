@@ -4,9 +4,11 @@ public class WhileLoopExample {
     public static void main(String[] args) {
         int[] tab = {20, 40, 3, 12, 456};
         int i = 0;
+        String firstname = "wojtek";
 
         while (i < tab.length) {
-            System.out.println(tab[i]);
+            System.out.println("Liczba: " + tab[i]);
+            System.out.printf("Liczba: %d a teskt to %s \n", tab[i], firstname);
             i++;
         }
 
